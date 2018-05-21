@@ -1,0 +1,15 @@
+{
+  "name": "email-challenge",
+  "version": "1.0.0",
+  "description": "Run the program from the command line using `node email-sorter.js` from the root folder The result in logged in the terminal",
+  "main": "email-sorter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0"
+  }
+}
