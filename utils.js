@@ -33,7 +33,7 @@ const organizeEmails = (inputArr, outputArr = []) => {
 
   if (replyId) {
     const newOutput = outputArr.map(conversation => {
-      if (_.last(conversation) === replyId) {
+      if (conversation.includes(replyId)) {
         return [...conversation, messageId];
       }
       return conversation;
