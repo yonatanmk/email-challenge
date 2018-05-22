@@ -5,7 +5,8 @@
 
 
 Run the program from the command line using `node email-sorter.js` from the root folder
-The result in logged in the terminal
+
+The result is logged in the terminal
 
 
 ## Testing:
